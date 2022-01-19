@@ -16,7 +16,7 @@
     * when the quantity of the item you have entered are not numeric values
     * when you edit and enter an item that does not match an existing product list
 * When it prompts a character to proceed, it is not case sensitive.
-* The memory is volatile in CSV file.
+* The data is persistent in CSV file.
 * When you move an item to another warehouse and the item matches an existing product list in the warehouse, it adds the quantity.
 * When you add an item which matches an existing product list in the warehouse, it asks you to add the quantity or not.
  
