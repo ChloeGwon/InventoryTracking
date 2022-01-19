@@ -6,8 +6,8 @@
 * Requirement: Java in the system.
 * Click on code, download ZIP.
 * On a terminal, move to the src directory.
-* <how to compile>In terminal, enter 'javac ./*.java' to compile.
-* <how to run>Enter java InventoryTracking to run.
+* <how to compile>Enter 'javac ./*.java' to compile.
+* <how to run>Enter 'java InventoryTracking' to run.
 
 ## Features ##
 * It gives errors
