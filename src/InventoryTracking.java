@@ -340,9 +340,18 @@ public class InventoryTracking {
 						}
 					}
 				}
-				System.out.println("Since there is a same item, quantity is added.");
-				warehouseArrList.remove(index);
-				warehouseArrList.set(indexInNewLocation, itemValues[0]+","+itemValues[1]+","+String.valueOf((Integer.parseInt(itemValues[2]) + Integer.parseInt(existItemInNewLocation)))+","+location);
+				
+				if (existItem) {
+					warehouseArrList.remove(index);
+					warehouseArrList.set(indexInNewLocation, itemValues[0]+","+itemValues[1]+","+
+					String.valueOf((Integer.parseInt(itemValues[2]) + Integer.parseInt(existItemInNewLocation)))+","+location);
+					System.out.println("Since there is a same item, quantity is added.");
+				}
+				
+				else {
+					warehouseArrList.remove(index);
+					warehouseArrList.set(indexInNewLocation, itemValues[0]+","+itemValues[1]+","+itemValues[2]+","+location);
+				}
 			}
 		}
 		
