@@ -18,7 +18,7 @@
     * when you enter a non-existing item name to edit or delete
 * When it prompts a character to proceed, it is not case-sensitive.
 * The data is persistent in CSV file.
-* When you move an item to another warehouse and the item matches an existing item in the warehouse, it adds the quantity.
+* When you move an item to another warehouse and the item matches an existing item in the warehouse, it increases the quantity.
 * When you add an item which matches an existing item in the warehouse, it asks if want to increase the quantity of the item.
  
 ## Tests ##
