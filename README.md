@@ -1,5 +1,6 @@
 ## Description ##
-* This is a terminal application performing CRUD operation that manages items in inventories. You can add, update, delete, and view an item in two locations of warehouses.
+* This is a terminal application performing CRUD operation that manages items in inventories. 
+* You can add, update, delete, and view an item in two locations of warehouses.
 * The output is stored as a CSV file.
 
 ## How to Run the Project ##
