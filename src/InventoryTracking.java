@@ -326,7 +326,7 @@ public class InventoryTracking {
 				System.out.println("Do you want to move this item to "+location+" warehouse? Enter 'Y' for yes, 'N' for no");
 				option = input.nextLine();
 			}
-			
+				
 			//When an item is moved to another location warehouse, we need to check if there is the same item.
 			if (option.equals("Y") || option.equals("y")) {
 				
